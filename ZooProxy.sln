@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keep.ZooProxy", "src\Keep.ZooProxy\Keep.ZooProxy.csproj", "{3F16ED0D-5C3C-454B-A15C-E026FA804B06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{42EC2407-24D3-4A53-B1EE-144B3C62F71E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4E1F8FC9-4C9C-466B-8F66-77842FECCC97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keep.ZooProxy.Tests", "tests\Keep.ZooProxy.Tests\Keep.ZooProxy.Tests.csproj", "{28F6D20F-AA65-48A4-A5A1-DEAC0D539C63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{714D095E-D199-422B-9213-0EBA9101F5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.ZooProxy", "samples\Sample.ZooProxy\Sample.ZooProxy.csproj", "{93FE52F6-137D-492A-9507-BDA5409056C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F16ED0D-5C3C-454B-A15C-E026FA804B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F16ED0D-5C3C-454B-A15C-E026FA804B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F16ED0D-5C3C-454B-A15C-E026FA804B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F16ED0D-5C3C-454B-A15C-E026FA804B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F6D20F-AA65-48A4-A5A1-DEAC0D539C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F6D20F-AA65-48A4-A5A1-DEAC0D539C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F6D20F-AA65-48A4-A5A1-DEAC0D539C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F6D20F-AA65-48A4-A5A1-DEAC0D539C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93FE52F6-137D-492A-9507-BDA5409056C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FE52F6-137D-492A-9507-BDA5409056C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FE52F6-137D-492A-9507-BDA5409056C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FE52F6-137D-492A-9507-BDA5409056C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F16ED0D-5C3C-454B-A15C-E026FA804B06} = {42EC2407-24D3-4A53-B1EE-144B3C62F71E}
+		{28F6D20F-AA65-48A4-A5A1-DEAC0D539C63} = {4E1F8FC9-4C9C-466B-8F66-77842FECCC97}
+		{93FE52F6-137D-492A-9507-BDA5409056C9} = {714D095E-D199-422B-9213-0EBA9101F5DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7981C5ED-3873-49DA-9AF2-BC37B5542841}
+	EndGlobalSection
+EndGlobal
