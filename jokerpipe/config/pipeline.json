@@ -1,0 +1,93 @@
+{
+  "name": "zooproxy",
+  "author": "kede",
+  "group": "technology-platform",
+  "projects": [
+    {
+      "id": "keep-zooproxy",
+      "path": "./src/Keep.ZooProxy",
+      "pack": "nuget"
+    }
+  ],
+  "solution": {
+    "path": "./ZooProxy.sln",
+    "release": true,
+    "toolType": "dotnet",
+    "projectIds": [
+      "keep-zooproxy"
+    ]
+  },
+  "notice": {
+    "dingTalk": {
+      //钉钉机器人Token
+      "accessToken": "f427165f27444e27975ade327bc89e1a5193236ed9c7c9a845da55bd8080f0d2",
+      //需要被@组员的手机号
+      "ats": {
+        "Development": [
+          "18516532013"
+        ]
+      }
+    }
+  },
+  "qa": {
+    "unitTest": {
+      "testProjects": [
+        {
+          "id": "zooproxy.test",
+          "path": "./tests/Keep.ZooProxy.Tests",
+          "toolType": "dotnet",
+          "testTool": "nunit",
+          "release": true
+        }
+      ]
+    },
+    "sonar": {
+      "toolType": "dotnet",
+      "rootPath": "./src/ZooProxy.sln",
+      "exclusions": [],
+      "r#": {
+        "exclusions": [
+          "**/tests",
+          "**/*.json"
+        ]
+      }
+    }
+  },
+  "targets": {},
+  "sources": {
+    // "test": [
+    //   {
+    //     "source": "http://proget.kede.net/nuget/test/",
+    //     "credentialId": "0a8aaec1-722c-4805-bd38-5f7626a9faa3",
+    //     "urls": [
+    //       "http://proget.kede.net/feeds/test/Keep.ZooProxy/versions"
+    //     ]
+    //   }
+    // ],
+    "alpha": [
+      {
+        "source": "http://proget.kede.net/nuget/alpha/",
+        "credentialId": "0a8aaec1-722c-4805-bd38-5f7626a9faa3",
+        "urls": [
+          "http://proget.kede.net/feeds/alpha/Keep.ZooProxy/versions"
+        ]
+      }
+    ],
+    "default": [
+      {
+        "source": "http://proget.kede.net/nuget/public/",
+        "credentialId": "0a8aaec1-722c-4805-bd38-5f7626a9faa3",
+        "urls": [
+          "http://proget.kede.net/feeds/public/Keep.ZooProxy/versions"
+        ]
+      }
+    ]
+  },
+  "switch": {
+    "restore": true,
+    "build": true,
+    "QA": "auto",
+    "publish": "auto",
+    "deploy": "auto"
+  }
+}
