@@ -1,5 +1,5 @@
 //使用合适的jokerpipe版本
-@Library('jokerpipe@feat/nuget-pack') _
+@Library('jokerpipe@v1.7.x') _
 def switcher
 
 pipeline {

@@ -36,14 +36,14 @@
           "id": "zooproxy.test",
           "path": "./tests/Keep.ZooProxy.Tests",
           "toolType": "dotnet",
-          "testTool": "nunit",
+          "testTool": "xunit",
           "release": true
         }
       ]
     },
     "sonar": {
       "toolType": "dotnet",
-      "rootPath": "./src/ZooProxy.sln",
+      "rootPath": "./ZooProxy.sln",
       "exclusions": [],
       "r#": {
         "exclusions": [
