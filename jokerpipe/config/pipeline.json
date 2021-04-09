@@ -45,12 +45,12 @@
       "toolType": "dotnet",
       "rootPath": "./ZooProxy.sln",
       "exclusions": [],
-      "r#": {
-        "exclusions": [
-          "**/tests",
-          "**/*.json"
-        ]
-      }
+      // "r#": {
+      //   "exclusions": [
+      //     "**/tests",
+      //     "**/*.json"
+      //   ]
+      // }
     }
   },
   "targets": {},
