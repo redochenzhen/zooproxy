@@ -118,7 +118,7 @@ pipeline {
         success {
           script {
             dingTalk.succeed (
-              message: 'Successfully deployed.'
+              message: 'Successfully pushed.'
             )
           }
         }
@@ -126,7 +126,7 @@ pipeline {
         failure {
           script {
             dingTalk.fail (
-              message: 'Deployment is failed.'
+              message: 'Failed in pushing.'
             )
           }
         }

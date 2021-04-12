@@ -33,7 +33,7 @@
     "unitTest": {
       "testProjects": [
         {
-          "id": "zooproxy.test",
+          "id": "keep.zooproxy.test",
           "path": "./tests/Keep.ZooProxy.Tests",
           "toolType": "dotnet",
           "testTool": "xunit",
