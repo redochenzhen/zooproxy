@@ -80,6 +80,10 @@
         "urls": [
           "http://proget.kede.net/feeds/public/Keep.ZooProxy/versions"
         ]
+      },
+      {
+        "source": "https://api.nuget.org/v3/index.json",
+        "credentialId": "776eabf0-185e-430c-8d89-3764da749eee"
       }
     ]
   },
